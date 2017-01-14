@@ -1,0 +1,725 @@
+/*
+ *这是单独为hello mui准备的个性化css，可以覆盖标准mui的css定义；
+ * 在实际项目开发时，建议为App单独写一个css文件，从而实现项目的自定义皮肤功能；
+ *
+ * */
+.mui-plus.mui-android header.mui-bar{
+	display: none;
+}
+.mui-plus.mui-android .mui-bar-nav~.mui-content{
+	padding: 0;
+}
+
+/*hm开头的表示仅为 Hello MUI示例定义*/
+.hm-description{
+	margin: .5em 0;
+}
+
+.hm-description>li {
+	font-size: 14px;
+	color: #8f8f94;
+}
+body{
+    background-color: #f0efef;
+    font-family: "Microsoft Yahei";
+}
+ul,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+p{
+    margin: 0;
+}
+/*背景颜色定义*/
+.mui-content{
+    background-color: #f0efef;
+}
+.bg-cheng{
+    background-color: #fb5a02;
+}
+.bg-bai{
+    background-color: #fff !important;
+}
+.bg-lblue{
+    background-color: #e6f2fd;
+}
+.bg-hui{
+    background-color: #d1d1d1;
+}
+.bg-blue{
+    background-color: #0781e9;
+}
+/*字体图标*/
+@font-face {font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot'); /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
+    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+}
+.iconfont{
+    font-family:"iconfont" !important;
+    font-size:16px;font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;}
+.mui-toast-message{
+    background: #1152a0 !important;
+    color: #fff !important;
+}
+/*字体颜色定义*/
+.col-bai{
+    color: #fff;
+}
+.col-hui{
+    color: #d1d1d1;
+}
+.col-hei{
+    color: #000;
+}
+.col-cheng{
+    color: #fb8f02;
+}
+.col-red{
+    color: #fb0202;
+}
+.col-blue{
+    color: #0781e9;
+}
+.col-scheng{
+    color: #fb5a02;
+}
+.col-jcheng{
+    color: #fb8f02;
+    background-image: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(251, 90, 2, 1)), to(rgba(255, 164, 45, 1)));
+    background-image: radial-gradient(linear, 0 0, 0 90%, from(rgba(251, 90, 2, 1)), to(rgba(255, 164, 45, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*字体大小*/
+.font06e{
+    font-size: 0.6em !important;
+}
+.font08e{
+    font-size: 0.8em !important;
+}
+.font10e{
+    font-size: 1em !important;
+}
+.font12e{
+    font-size: 1.2em !important;
+}
+.font14e{
+    font-size: 1.4em !important;
+}
+.font18e{
+    font-size: 1.8em !important;
+}
+.font20e{
+    font-size: 2em !important;
+}
+/*页面间距*/
+.margin4{
+    margin: 4px;
+}
+.margin10{
+    margin:0 10px;
+}
+.margin-top10{
+    margin-top: 10px !important;
+}
+.margin-bottom4{
+    margin-bottom: 4px;
+}
+.margin-bottom6{
+    margin-bottom: 6px;
+}
+.margin-bottom10{
+    margin-bottom: 10px;
+}
+.margin-right4{
+    margin-right: 4px;
+}
+.margin-right8{
+    margin-right: 8px;
+}
+.padding2{
+    padding: 2px 4px;
+}
+.padding10{
+    padding: 10px ;
+}
+.padding40{
+    padding: 4px 0;
+}
+.padding-top10{
+    padding-top: 10px;
+}
+.padding-left8{
+    padding-left: 8px;
+}
+/*浮动位置*/
+.l-float{
+    clear: both;
+}
+.l-left{
+    float: left;
+}
+.l-right{
+    float: right;
+}
+/*边线*/
+.border-b{
+    border-bottom: #ddd solid 1px;
+}
+.border-t{
+    border-top: #ddd solid 1px;
+}
+hr.border{
+    background: #ddd;
+    height: 1px;
+    box-shadow: none;
+    border:none;
+}
+/*按钮*/
+.mui-btn-outlined.mui-btn-blue{
+    color: #063062;
+}
+.mui-btn-blue, .mui-btn-blue, input[type=submit] {
+    color: #fff;
+    border: 1px solid #022753;
+    background-color: #063062;
+}
+.mui-btn-outlined {
+    background-color: transparent;
+}
+.mui-btn-primary, input[type=submit]{
+    border: 1px solid #05254C;
+    background-color: #063062;
+}
+.mui-btn-outlined{
+    background-color: transparent;
+}
+.mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
+color: #063062;
+}
+.mui-card{
+    margin: 10px 0;
+    border-radius: 0;
+}
+/*重置翻页样式*/
+.mui-pagination>li.mui-active>a, .mui-pagination>li.mui-active>a:active, .mui-pagination>li.mui-active>span, .mui-pagination>li.mui-active>span:active, .mui-pagination>li:active>a, .mui-pagination>li:active>a:active, .mui-pagination>li:active>span, .mui-pagination>li:active>span:active{
+    border-color: #042144;
+    background-color: #063062;
+}
+.mui-pagination>li>a, .mui-pagination>li>span{
+    color: #063062;
+}
+/*底部菜单*/
+#mui-menu-box{
+    box-shadow: none;
+    background: #fff;
+    border-top: 1px solid #ddd;
+}
+#mui-menu-box .mui-menu-item{
+    display: table-cell;
+    overflow: hidden;
+    width: 1%;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+#mui-menu-box .mui-menu-item .mui-icon {
+    top: 3px;
+    width: 24px;
+    height: 24px;
+    padding-top: 0;
+    padding-bottom: 0;
+    color: #fb8f02;
+    background-image: -webkit-gradient(linear, 0 0, 0 90%, from(rgba(251, 90, 2, 1)), to(rgba(255, 164, 45, 1)));
+    background-image: radial-gradient(linear, 0 0, 0 90%, from(rgba(251, 90, 2, 1)), to(rgba(255, 164, 45, 1)));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#mui-menu-box .mui-menu-item .mui-icon~.mui-tab-label {
+    font-size: 12px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #fb8f02;
+}
+#mui-menu-box .mui-menu-item.mui-active {
+    color: #ed5201;
+}
+#mui-menu-box .mui-menu-item.mui-active .mui-icon {
+    color: #ed5201;
+    background-image: -webkit-gradient(linear, 0 0, 0 50%, from(rgba(251, 90, 2, 1)), to(rgba(251, 90, 2, 1)));
+    background-image: radial-gradient(linear, 0 0, 0 50%, from(rgba(251, 90, 2, 1)), to(rgba(251, 90, 2, 1)));
+}
+#mui-menu-box p.moneycount{
+    display: block;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    float: left;
+    width: 48%;
+    height: 50px;
+    line-height: 50px;
+    text-indent: 4px;
+}
+#mui-menu-box .follow{
+    width: 20%;
+    display: block;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+#mui-menu-box .follow span.mui-icon{
+    padding: 0;
+}
+#mui-menu-box a.mui-buybtn{
+    display: block;
+    overflow: hidden;
+    width: 32%;
+    float: left;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+#mui-menu-box a:active.mui-buybtn{
+    color: rgba(255, 255, 255, 0.6);
+}
+#mui-menu-box a.mui-buybtn-full{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+#mui-menu-box a:active.mui-buybtn-full{
+    color: rgba(251, 2, 2, 0.4);
+}
+#mui-menu-box a.mui-buybtn-half{
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    height: 50px;
+    float: left;
+    text-align: center;
+    line-height: 50px;
+}
+#mui-menu-box a:active.mui-buybtn-half{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/*首页样式*/
+.mui-slider-btn{
+    position: absolute;
+    z-index: 999;
+    height: 2.4em;
+    line-height: 2.4em;
+    color: #fff;
+    width: 98%;
+    padding: .2em 1%;
+}
+.mui-slider-btn >a{
+    height: 2em;
+    width: 2em;
+    line-height: 1.8em;
+    text-align: center;
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 50%;
+}
+.mui-slider-indicator .mui-active.mui-indicator {
+    background: #fb8f02;
+}
+.mui-slider-indicator .mui-indicator {
+    width: 8px;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.4);
+    box-shadow: none;
+}
+.mui-column{
+    display: block;
+    overflow: hidden;
+}
+.mui-column-tit{
+    height: 2.4em;
+    line-height: 2.4em;
+    font-size: 1.2em;
+    padding: 0 10px;
+}
+.mui-column-tit .mui-table-view{
+    background: none;
+}
+.mui-column-tit .mui-table-view:after{
+    background: none;
+}
+.mui-asset-list{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 6px;
+}
+.mui-asset-list .mui-asset-tit{
+    border-bottom: 1px solid #ddd;
+    line-height: 1.8em;
+    word-break:break-all;
+}
+.mui-asset-list .mui-asset-tit >p{
+    margin-bottom: 0;
+}
+.mui-asset-sec{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.mui-asset-sec li{
+    width: 33.33%;
+    text-align: center;
+}
+.mui-asset-sec .sec-tit{
+    color: #d1d1d1;
+    height: 1.8em;
+    line-height: 1.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mui-asset-sec .sec-data{
+    height: 1.8em;
+    line-height: 1.8em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.mui-asset-progress{
+    display: block;
+    overflow: hidden;
+    height: 1.2em;
+    line-height: 1.2em;
+}
+.mui-asset-progress .mui-asset-progressbar{
+    width: 86%;
+    float: left;
+}
+.mui-asset-progress .mui-asset-progressbar .mui-progressbar{
+    margin-top: .6em;
+}
+.mui-asset-progress >span{
+    font-size: .8em;
+    float: left;
+    padding-left: 8px;
+}
+.mui-assetscroll-tit .mui-table-view{
+    height: 2.4em;
+    line-height: 2.4em;
+    font-size: 1.2em;
+    padding: 0 10px;
+    background: #fff;
+}
+.mui-assetscroll-box{
+    background: #fff;
+    padding-bottom: 2em;
+    padding: 0 10px 2em 10px;
+}
+.mui-assetscroll-box p.tit{
+    height: 2.4em;
+    line-height: 2.4em;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.mui-assetscroll-box span.tag{
+    display: block;
+    overflow: hidden;
+    font-size: 1em;
+    text-align: center;
+    width: 9em;
+    height: 2em;
+    line-height: 2em;
+    border-radius: .2em;
+    margin: 0 auto;
+    border: 1px solid #0781e9;
+    color: #0781e9;
+}
+.mui-assetscroll-box .asset-sec >span{
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    line-height: 2em;
+}
+.mui-assetscroll-box .asset-data{
+    display: block;
+    overflow: hidden;
+    line-height: 1.4em;
+}
+.mui-news-list{
+    display: block;
+    overflow: hidden;
+    padding: 8px 2%;
+}
+.mui-news-list .info{
+    width: 60%;
+    margin-right: 2%;
+    line-height: 1.8em;
+}
+.mui-news-list .info .tit{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.mui-news-list .pic{
+    display: block;
+    width: 38%;
+    overflow: hidden;
+}
+.mui-news-list .pic >img{
+    width: 100%;
+    vertical-align: top;
+}
+.mui-news-list .fullinfo{
+    width: 100%;
+    line-height: 1.8em;
+}
+.mui-news-list .fullinfo .tit{
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+.mui-news-line{
+    display: block;
+    overflow: hidden;
+    height: 1px;
+    background: #ddd;
+    margin: 0 1%;
+}
+.mui-news-more{
+    display: block;
+    line-height: 2.8em;
+    font-size: .8em;
+    color: #0781e9;
+    text-align: center;
+    border-top: 1px solid #ddd;
+}
+.mui-coupon{
+    display: block;
+    margin: 8px 2%;
+    overflow: hidden;
+    border-radius: 6px;
+    -webkit-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.4);
+}
+.mui-coupon >img{
+    width: 100%;
+    vertical-align: top;
+}
+.mui-helpmenu{
+    display: block;
+    height: 3.4em;
+    line-height: 2.4em;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.mui-helpmenu li{
+    display: block;
+    width: 33.33%;
+    text-align: center;
+    float: left;
+}
+.mui-helpmenu li >a{
+    display: inline-block;
+    width: 100%;
+    height: 2.4em;
+    margin-top: .5em;
+    border-right: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.mui-helpmenu li >a i{
+    margin-right: 8px;
+}
+
+/* 资产模块 */
+.mui-title-tab >a{
+    border-right: 1px solid #fff;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.mui-title-tab >a.active,.mui-title-tab >a:active,.mui-title-tab >a:hover{
+    font-weight: bold;
+}
+.mui-asset-scale{
+    display: block;
+    overflow: hidden;
+    padding: 12px 0;
+}
+.mui-asset-scale li{
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: center;
+}
+.mui-asset-scale li .tit{
+    line-height: 1.8em;
+}
+.mui-asset-scale li .data{
+    line-height: 2em;
+}
+.mui-asset-sum{
+    display: block;
+    overflow: hidden;
+    padding: 12px 2%;
+    border-bottom: 1px solid #ddd;
+}
+.mui-asset-sum li{
+    display: block;
+    width: 50%;
+    float: left;
+    text-align: center;
+    overflow: hidden;
+    padding-bottom: 8px;
+}
+.mui-asset-sum li .tit{
+    line-height: 1.2em;
+}
+.mui-asset-sum li .data{
+    line-height: 1.4em;
+}
+.mui-asset-sum .mui-asset-sumbox{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    line-height: 2em;
+    padding-top: 4px;
+}
+.mui-asset-tabbox .mui-scroll-wrapper{
+    position: relative;
+}
+.mui-asset-tabbox .mui-scroll-wrapper .mui-scroll{
+    position: relative;
+}
+.info-asset-detail{
+    padding: 4px 2%;
+}
+.mui-asset-tabbox .mui-table-view-cell:after{
+    background-color: #fff !important;
+}
+.mui-asset-tabbox .info-asset-dealist ul.condata{
+    display: block;
+    overflow: hidden;
+}
+.mui-asset-tabbox .info-asset-dealist >li{
+    padding: 8px;
+}
+.mui-asset-tabbox .info-asset-dealist ul.condata li{
+    float: left;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 4px;
+}
+.mui-asset-tabbox .info-asset-dealist .condate{
+    border-top: 1px solid #ddd;
+    color: #000;
+    padding-top: 4px;
+}
+
+/* 投资动态 */
+.mui-page-banner{
+    display: block;
+    overflow: hidden;
+    padding: 8px 2%;
+}
+.mui-page-banner img{
+    width: 100%;
+    vertical-align: top;
+}
+.mui-page-box{
+    padding: 4px 2%;
+}
+.mui-page-box .tit{
+    line-height: 1.4em;
+}
+.mui-page-box .date{
+    margin: 8px 0;
+}
+.mui-page-box .mui-info-detail img{
+    width: 100%;
+}
+
+
+/**
+ *
+ * @authors huang2a
+ * @date    2016-12-17 13:30:34
+ * @version pop LookingLawyer info.html  userimg
+ */
+.shade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: none;
+  z-index: 1000000; }
+
+#material-light-anime {
+  -webkit-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -moz-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  -o-transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+  display: none;
+  overflow: hidden !important;
+  width: 20px;
+  height: 20px;
+  position: fixed;
+  z-index: 10000000;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 5px;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -o-border-radius: 100%;
+  border-radius: 100%;
+  -webkit-box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.7);
+  -o-box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.7);
+  }
+  #material-light-anime #text-anime {
+    -webkit-transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1);
+    -moz-transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1);
+    -o-transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.2s cubic-bezier(0.55, 0, 0.1, 1);
+    opacity: 0.0;
+    overflow: hidden;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 500;
+    letter-spacing: 0px;
+    margin-top: 20px;
+    margin-bottom: 0;
+    }
