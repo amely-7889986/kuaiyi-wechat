@@ -350,11 +350,45 @@ color: #063062;
     display: block;
     overflow: hidden;
 }
+.mui-notice-box{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+    padding: 8px;
+    margin: .6em 0;
+}
+.mui-notice-box .notice-tit{
+    display: block;
+    width: 20%;
+    border-right: 1px solid #ddd;
+    padding-right: 4px;
+}
+.mui-notice-box .notice-tit img{
+    width: 100%;
+}
+.mui-notice-box .notice-info{
+    display: block;
+    overflow: hidden;
+    width: 80%;
+    padding-left: 8px;
+}
+.mui-notice-box .notice-info i{
+    line-height: 2em;
+}
+.mui-notice-box .notice-info span{
+    display: block;
+    width: 90%;
+    line-height: 2em;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
 .mui-column-tit{
     height: 2.4em;
     line-height: 2.4em;
     font-size: 1.2em;
     padding: 0 10px;
+    border-bottom: 1px solid #ddd;
 }
 .mui-column-tit .mui-table-view{
     background: none;
@@ -367,7 +401,7 @@ color: #063062;
     overflow: hidden;
     background: #fff;
     padding: 0 10px;
-    margin-bottom: 6px;
+    border-bottom: 1px solid #ddd;
 }
 .mui-asset-list .mui-asset-tit{
     border-bottom: 1px solid #ddd;
@@ -557,12 +591,16 @@ color: #063062;
 
 /* 资产模块 */
 .mui-title-tab >a{
-    border-right: 1px solid #fff;
     padding: 0 8px;
     box-sizing: border-box;
+    display: inline-block;
+    margin: 0 12px;
+    font-size: 1em;
+    padding: 0 18px;
 }
 .mui-title-tab >a.active,.mui-title-tab >a:active,.mui-title-tab >a:hover{
     font-weight: bold;
+    border-bottom: 2px solid #fb8f02;
 }
 .mui-asset-scale{
     display: block;
@@ -662,6 +700,32 @@ color: #063062;
 }
 .mui-page-box .mui-info-detail img{
     width: 100%;
+}
+
+/* 关于我们 */
+.mui-about-banner{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+}
+.mui-about-banner img{
+    width: 100%;
+    vertical-align: top;
+}
+.mui-about-btn{
+    display: block;
+    overflow: hidden;
+    padding: .4em 2%;
+}
+.mui-about-btnbig{
+    display: block;
+    width: 50%;
+    overflow: hidden;
+    height: 7.4em;
+}
+.mui-about-btnbig a.register{
+    display: block;
+    background: url(../../images/asset-register.png) bottom center no-repeat;
 }
 
 
