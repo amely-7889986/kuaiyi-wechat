@@ -719,13 +719,74 @@ color: #063062;
 }
 .mui-about-btnbig{
     display: block;
-    width: 50%;
+    width: 48%;
     overflow: hidden;
-    height: 7.4em;
+    height: 9.4em;
+    margin-right: 4%;
+}
+.mui-about-btnbig p{
+    line-height: 1.6em;
+}
+.mui-about-btnsm{
+    display: block;
+    overflow: hidden;
+    height: 9.4em;
+    width: 48%;
+}
+.mui-about-btnsm p{
+    line-height: 1.6em;
 }
 .mui-about-btnbig a.register{
     display: block;
-    background: url(../../images/asset-register.png) bottom center no-repeat;
+    height: 100%;
+    background: url(../images/asset-register.png) bottom center no-repeat;
+    background-size: 60%;
+    padding: .4em;
+}
+.mui-about-btnsm a.asset{
+    display: block;
+    height: 4.8em;
+    margin-bottom: .6em;
+    background: url(../images/asset-type.png) right center no-repeat;
+    background-size: 40%;
+    padding: .4em;
+}
+.mui-about-btnsm a.recommend{
+    display: block;
+    height: 4.8em;
+    background: url(../images/asset-man.png) right center no-repeat;
+    background-size: 40%;
+    padding: .4em;
+}
+.mui-company{
+    display: block;
+    overflow: hidden;
+    background: #fff;
+    padding: 8px;
+}
+.mui-company .company-pic{
+    display: block;
+    overflow: hidden;
+    width: 34%;
+}
+.mui-company .company-pic img{
+    width: 100%;
+    vertical-align: top;
+}
+.mui-company .company-info{
+    display: block;
+    overflow: hidden;
+    width: 64%;
+}
+.mui-company .company-info p{
+    display: -webkit-box;
+    overflow: hidden;
+    line-height: 1.4em;
+    height: 9.6em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
 }
 
 
