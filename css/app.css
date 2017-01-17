@@ -285,7 +285,7 @@ color: #fb5a02;
 #mui-menu-box a.mui-buybtn{
     display: block;
     overflow: hidden;
-    width: 32%;
+    width: 100%;
     float: left;
     height: 50px;
     line-height: 50px;
@@ -904,6 +904,28 @@ color: #fb5a02;
     background: #fb5a02;
     color: #fff;
     border: 0;
+}
+.mui-download{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+    background: url(../update/download-bg.png) center center no-repeat;
+    background-size: 100%;
+}
+.mui-download .download-btn{
+    display: block;
+    width: 100%;
+    position: absolute;
+    bottom: 3em;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+}
+.mui-download .download-btn >a{
+    border-radius: 2em;
+    margin: 0 .8em;
 }
 
 /**
