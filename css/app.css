@@ -138,6 +138,12 @@ p{
 .margin-bottom10{
     margin-bottom: 10px;
 }
+.margin-bottom16{
+    margin-bottom: 16px;
+}
+.margin-left8{
+    margin-left: 8px;
+}
 .margin-right4{
     margin-right: 4px;
 }
@@ -194,15 +200,11 @@ hr.border{
 .mui-btn-outlined {
     background-color: transparent;
 }
-.mui-btn-primary, input[type=submit]{
-    border: 1px solid #05254C;
-    background-color: #063062;
-}
 .mui-btn-outlined{
     background-color: transparent;
 }
 .mui-checkbox input[type=checkbox]:checked:before, .mui-radio input[type=radio]:checked:before{
-color: #063062;
+color: #fb5a02;
 }
 .mui-card{
     margin: 10px 0;
@@ -789,6 +791,120 @@ color: #063062;
     -webkit-box-orient: vertical;
 }
 
+/* 注册模块 */
+.mui-sign-logo{
+    display: block;
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+}
+.mui-sign-logo img{
+    width: 100%;
+}
+.mui-sign-form{
+    display: block;
+    overflow: hidden;
+    padding: 4px 1.4em .4em 1.4em;
+}
+.mui-sign-form .w100{
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+.mui-codebox{
+    display: block;
+    overflow: hidden;
+}
+.mui-sign-input input{
+    margin-bottom: 0;
+}
+.mui-sign-form .w60{
+    display: block;
+    overflow: hidden;
+    width: 60%;
+}
+.mui-sign-form .mui-sign-code{
+    width: 34%;
+    margin-left: 6%;
+    padding: 9px 12px;
+}
+.mui-sign-form a.mui-sign-btn{
+    padding: 8px 0;
+    background: #fb5a02;
+    border: 0;
+    color: #fff;
+}
+.mui-sign-form .mui-checkbox label{
+    padding-left: 42px;
+}
+.mui-sign-form .mui-checkbox input[type='checkbox']{
+    left: 8px;
+}
+.mui-success-box{
+    display: block;
+    overflow: hidden;
+    background: #fff url(../images/sign-success.png) top center no-repeat;
+    background-size: 100%;
+    padding-top: 5em;
+}
+.mui-success-box .tit{
+    line-height: 2em;
+    text-align: center;
+}
+.mui-success-box .QRcode{
+    display: block;
+    overflow: hidden;
+    width: 10em;
+    height: 10em;
+    margin: 1em auto;
+}
+.mui-success-box .QRcode img{
+    width: 100%;
+}
+.mui-success-box .link{
+    display: block;
+    overflow: hidden;
+    padding: 1em 2em;
+    text-align: center;
+}
+.mui-success-box a.mui-share-btn{
+    display: inline-block;
+    width: 60%;
+    border: 1px solid #fb5a02;
+    padding: 8px 12px;
+    color: #fb5a02;
+    margin: .4em 20%;
+}
+.mui-assettool{
+    display: block;
+    overflow: hidden;
+}
+.mui-assettool .mui-toolist{
+    display: block;
+    overflow: hidden;
+    height: 3em;
+    line-height: 3em;
+    background: #fff;
+    padding: 0 8px;
+    border-bottom: 1px solid #ddd;
+}
+.mui-assettool .mui-toolist input[type="text"]{
+    width: 8em;
+    height: 3em;
+    line-height: 3em;
+    border: 0;
+    text-align: right;
+    padding: 0 8px;
+    margin: 0;
+}
+.mui-assettool .mui-count-btn{
+    padding: 8px 0;
+    width: 96%;
+    margin: 10px 2%;
+    background: #fb5a02;
+    color: #fff;
+    border: 0;
+}
 
 /**
  *
